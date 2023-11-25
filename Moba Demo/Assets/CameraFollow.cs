@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour
     public Transform player;
 
     [Range(0.01f, 1.0f)]
-    public float smoothness;
+    public float smoothness =0.5f;
 
     // Start is called before the first frame update
     void Start()
